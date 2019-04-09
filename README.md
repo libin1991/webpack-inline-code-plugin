@@ -12,7 +12,7 @@ css插入<head>标签中，js插入<body>标签中
 
 webpack.config.js配置：
 ```
-const WebpackfilelistPlugin = require(webpack-inline-code-plugin);
+const WebpackInlineSourcePlugin = require('webpack-inline-code-plugin');
 
 
 new WebpackInlineSourcePlugin([{
